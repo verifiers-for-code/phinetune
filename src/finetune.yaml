@@ -1,0 +1,54 @@
+### model
+model_name_or_path: microsoft/Phi-3-mini-4k-instruct
+
+# method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_target: all
+deepspeed: conf/ds_z0_config.json
+flash_attn: auto
+additional_target:
+  - lm_head
+  - embed_tokens
+
+### dataset
+dataset: codegen500k 
+template: phi
+cutoff_len: 1024
+overwrite_cache: true
+preprocessing_num_workers: 32
+
+# train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 64
+learning_rate: 1.0e-5
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+bf16: true
+ddp_timeout: 180000000  
+
+# lora
+lora_rank: 256
+lora_alpha: 32
+use_rslora: true
+
+# eval
+val_size: 0.05
+eval_strategy: steps
+## change this
+per_device_eval_batch_size: 1
+eval_steps: 50
+
+# output
+output_dir: /shared/model_outputs/phinetune_01
+overwrite_output_dir: true
+plot_loss: true
+## change 
+save_steps: 50
+logging_steps: 1
+max_grad_norm: 1.0
+
+report_to: wandb
+run_name: phinetune_01

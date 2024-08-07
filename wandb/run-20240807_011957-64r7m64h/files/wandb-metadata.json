@@ -1,0 +1,221 @@
+{
+    "os": "Linux-6.8.0-39-generic-x86_64-with-glibc2.39",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-08-07T01:19:57.538593",
+    "startedAt": "2024-08-07T01:19:57.179977",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "src/finetune.yaml"
+    ],
+    "state": "running",
+    "program": "/home/sumukshashidhar/garrison/LLaMA-Factory/src/llamafactory/launcher.py",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:verifiers-for-code/phinetune.git",
+        "commit": "0073a661d8d84e5454bf2713897a61f0f599659d"
+    },
+    "email": "sumukuuu@gmail.com",
+    "root": "/home/sumukshashidhar/foundry/phinetune",
+    "host": "stargate",
+    "username": "sumukshashidhar",
+    "executable": "/home/sumukshashidhar/oasis/miniforge3/envs/llamafactory/bin/python3.10",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1754.1292187499998,
+        "min": 1500.0,
+        "max": 2800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1998.632,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2800.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1422.229,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1597.593,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1422.118,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1436.21,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 2000.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1333.38,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1333.395,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 3200.122,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1632.817,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1422.18,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1602.058,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1443.623,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 3108.023,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 3198.884,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1421.24,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1500.0,
+            "max": 2800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 3663.9825286865234,
+            "used": 1888.2734413146973
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 251.56012725830078
+    }
+}
