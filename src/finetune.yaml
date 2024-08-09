@@ -39,16 +39,16 @@ val_size: 0.05
 eval_strategy: steps
 ## change this
 per_device_eval_batch_size: 1
-eval_steps: 50
+eval_steps: 10
 
 # output
-output_dir: /shared/model_outputs/phinetune_01
+output_dir: /shared/model_outputs/phinetune_04
 overwrite_output_dir: true
 plot_loss: true
 ## change 
-save_steps: 50
+save_steps: 10
 logging_steps: 1
 max_grad_norm: 1.0
 
 report_to: wandb
-run_name: phinetune_01
+run_name: phinetune_04
